@@ -7,9 +7,26 @@ Wir programmieren das Spiel Snake. Das Zeichnen und die Tastatur übernimmt
 Das Spiel läuft von Anfang an. Mit jedem Schritt, den du fertig machst, kann die
 Schlange etwas mehr.
 
+## Vorbereitung
+
+Installiere `uv`:
+
 ```
-python3 game.py      # Spiel starten (R = neu starten, ESC = beenden)
-python3 check.py     # Prüft, welche Schritte schon richtig sind
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Klone den Code:
+
+```
+git clone https://github.com/heynemax/snake.git
+cd snake
+```
+
+Nun kannst du das Spiel ausführen und deinen Code überprüfen:
+
+```
+uv run game.py      # Spiel starten (R = neu starten, ESC = beenden)
+uv run check.py     # Prüft, welche Schritte schon richtig sind
 ```
 
 ## Das Spielfeld
